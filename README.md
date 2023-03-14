@@ -16,3 +16,14 @@
 | 2020.09 | MICCAI                              | [Weakly Supervised Organ Localization with Attention Maps Regularized by Local Area Reconstruction](https://link.springer.com/chapter/10.1007/978-3-030-59710-8_24) |                                                              |
 | 2020.09 | Artificial Intelligence in Medicine | [Weakly-Supervised Segmentation for Disease Localization in Chest X-Ray Images](https://link.springer.com/chapter/10.1007/978-3-030-59137-3_23) | [PyTorch](https://github.com/ucuapps/WSMIS)                  |
 
+
+## Literature reviews of CAM Variants.
+| Date    | Paper source                        | Title                                                        | Code                                                         |
+| ------- | ----------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 2020.06 | CVPR workshop                       | [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](https://openaccess.thecvf.com/content_CVPRW_2020/html/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.html) | [PyTorch](https://github.com/haofanwang/Score-CAM)                  |
+| 2018.05 | WACV                       | [Grad-CAM++: Generalized gradient-based visual explanations for deep convolutional networks](https://ieeexplore.ieee.org/abstract/document/8354201) |                 |
+| 2017.10 | ICCV                              | [Grad-cam: Visual explanations from deep networks via gradient-based localization](https://openaccess.thecvf.com/content_iccv_2017/html/Selvaraju_Grad-CAM_Visual_Explanations_ICCV_2017_paper.html) | [PyTorch](https://github.com/ramprs/grad-cam/)                  |
+| 2016.06 | CVPR                              | [Learning Deep Features for Discriminative Localization](https://openaccess.thecvf.com/content_cvpr_2016/html/Zhou_Learning_Deep_Features_CVPR_2016_paper.html) | [PyTorch](https://github.com/zhoubolei/CAM)                  |
+
+
+
