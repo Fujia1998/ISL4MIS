@@ -1,19 +1,20 @@
-# Image-tag-supervised learning for medical image segmentation.
+# Image-tag-supervised learning for medical image segmentation (ISL4MIS).
 
 ## 1. Code for image-tag-supervised learning
+<!-- ### 1.1 Usage -->
 1. train the classification network
-```shell
-python scripts/train_cls.py --img_dir your_img_dir
-```
+    ```shell
+    python scripts/train_cls.py --img_dir your_img_dir
+    ```
 
 2. generate cam using trained classification network
-```shell
-python scripts/cam.py --checkpoint best_checkpoint.pth
-```
+    ```shell
+    python scripts/cam.py --checkpoint best_checkpoint.pth
+    ```
 
 
 
-## 2. Literature reviews of image-tag-supervised learning approach for medical image segmentation (**ISL4MIS**).
+## 2. Literature reviews of image-tag-supervised learning approach for medical image segmentation.
 ### 2.1 State-of-the-art methods
 | Date    | Paper source                        | Title                                                        | Code                                                         |
 | ------- | ----------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -40,3 +41,5 @@ python scripts/cam.py --checkpoint best_checkpoint.pth
 
 
 
+## Acknowledgement
+- Part of the code is adapted from open-source codebase and original implementations of algorithms, we thank these authors for their fantastic and efficient codebase, such as [DRS](https://github.com/qjadud1994/DRS) and [pytorch-grad-cam](https://github.com/jacobgil/pytorch-grad-cam).
