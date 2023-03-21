@@ -1,7 +1,20 @@
 # Image-tag-supervised learning for medical image segmentation.
 
-## Literature reviews of image-tag-supervised learning approach for medical image segmentation (**ISL4MIS**).
+## 1. Code for image-tag-supervised learning
+1. train the classification network
+```shell
+python scripts/train_cls.py --img_dir your_img_dir
+```
 
+2. generate cam using trained classification network
+```shell
+python scripts/cam.py --checkpoint best_checkpoint.pth
+```
+
+
+
+## 2. Literature reviews of image-tag-supervised learning approach for medical image segmentation (**ISL4MIS**).
+### 2.1 State-of-the-art methods
 | Date    | Paper source                        | Title                                                        | Code                                                         |
 | ------- | ----------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 2022.09 | MICCAI                              | [Online Easy Example Mining for Weakly-supervised Gland Segmentation from Histology Images](https://arxiv.org/abs/2206.06665) | [PyTorch](https://github.com/xmed-lab/OEEM)                  |
@@ -17,7 +30,7 @@
 | 2020.09 | Artificial Intelligence in Medicine | [Weakly-Supervised Segmentation for Disease Localization in Chest X-Ray Images](https://link.springer.com/chapter/10.1007/978-3-030-59137-3_23) | [PyTorch](https://github.com/ucuapps/WSMIS)                  |
 
 
-## Literature reviews of CAM Variants.
+### 2.2 Literature reviews of CAM Variants.
 | Date    | Paper source                        | Title                                                        | Code                                                         |
 | ------- | ----------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 2020.06 | CVPR workshop                       | [Score-CAM: Score-Weighted Visual Explanations for Convolutional Neural Networks](https://openaccess.thecvf.com/content_CVPRW_2020/html/w1/Wang_Score-CAM_Score-Weighted_Visual_Explanations_for_Convolutional_Neural_Networks_CVPRW_2020_paper.html) | [PyTorch](https://github.com/haofanwang/Score-CAM)                  |
